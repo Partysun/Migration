@@ -11,7 +11,7 @@ ehthumbs.db
 Icon?
 Thumbs.db
 # Folder #
-out/
+output/
 # Build and Release Folders
 bin-debug/
 bin-release/

@@ -49,13 +49,7 @@ package com.partysun.migame
 			GameManager.level.masterLayer.add(plane);
 			GameManager.player = plane;
 			
-			//var asd:PhysObject = new PhysObject(200,700,20,20,_world);
-			//GameManager.level.masterLayer.add(asd);
-			//asd.createBody();
-			//asd._body.SetAngle(Math.PI);
-			//trace(asd._body.GetAngle() * (180 / Math.PI));
-			//FlxG.camera.zoom = 1;
-			FlxG.camera.focusOn(new FlxPoint(0, GameManager.level.boundsMaxY - 250));
+		    FlxG.camera.focusOn(new FlxPoint(0, GameManager.level.boundsMaxY - 250));
 			
 			// Включаем дебаг отрисовку
 			FlxG.visualDebug = true;
