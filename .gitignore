@@ -3,16 +3,21 @@
 *.swf
 
 # Logs and databases #
-######################
 *.log
 
 # OS generated files #
-######################
 .DS_Store?
 ehthumbs.db
 Icon?
 Thumbs.db
-
 # Folder #
-######################
 out/
+# Build and Release Folders
+bin-debug/
+bin-release/
+
+# Project property files
+.actionScriptProperties
+.flexProperties
+.settings/
+.project
